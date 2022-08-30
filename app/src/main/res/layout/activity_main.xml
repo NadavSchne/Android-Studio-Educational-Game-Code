@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgournd"
+    android:padding="16dp"
+
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/btn_options"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/ic_options"
+        android:backgroundTint="@android:color/black"
+        android:layout_margin="1dp"
+        android:layout_alignEnd="@+id/letsplay"
+        >
+
+    </ImageButton>
+
+    <TextView
+        android:id="@+id/letsplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="@string/MyQuiz"
+        android:textColor="@android:color/black"
+        android:textSize="35sp"
+        />
+
+    <LinearLayout
+        android:id="@+id/e_n"
+        android:paddingBottom="10dp"
+        android:layout_above="@id/button_start_quiz"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/text_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            android:text="@string/name"
+            android:textSize="28sp"
+            android:textColor="@android:color/black"
+            android:layout_margin="1dp"
+
+            />
+
+        <Space
+            android:layout_width="12dp"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/et_name"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/black"
+            android:maxLength="15"
+            android:background="@drawable/bg_edit_text"
+            android:layout_margin="1dp"
+
+            />
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/text_view_highscore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/e_n"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="32dp"
+        android:text="@string/HighScoreStart"
+        android:textSize="35sp"
+        android:paddingBottom="30dp"
+        android:textColor="@android:color/black"
+        android:layout_margin="1dp"
+
+        />
+
+    <Button
+        android:id="@+id/button_start_quiz"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/StartQuiz_Button"
+        android:background="@drawable/shape1"
+        android:layout_margin="1dp"
+        />
+
+    <Spinner
+        android:id="@+id/spinner_category"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/button_start_quiz"
+        android:layout_below="@+id/button_start_quiz"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/shape1"
+        android:layout_margin="1dp"
+        />
+    <Spinner
+        android:id="@+id/spinner_difficulty"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/button_start_quiz"
+        android:layout_below="@+id/spinner_category"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/shape1"
+        android:layout_margin="1dp"
+        />
+
+<ImageView
+    android:layout_width="150dp"
+    android:layout_height="150dp"
+    android:src="@drawable/emoji"
+    android:layout_centerInParent="true"
+    android:layout_alignParentBottom="true"
+    android:id="@+id/tween"
+    android:layout_margin="1dp"
+
+    />
+
+
+</RelativeLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="48sp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:gravity="center"
+android:background="@android:color/transparent"
+    >
+
+    <TextView
+        android:id="@+id/item_username"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="nadav"
+        android:textDirection="locale"
+
+        android:textSize="20sp"
+        android:layout_margin="1dp"
+
+        android:textColor="@android:color/black"
+        />
+
+
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/item_score"
+        android:textSize="20sp"
+        android:layout_margin="1dp"
+
+        android:layout_width="wrap_content"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:text="12"
+        android:layout_height="wrap_content"/>
+
+    <Space
+        android:layout_width="8dp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/item_difficulity"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@android:color/holo_green_dark"
+        android:textStyle="bold"
+        android:text="Easy"
+        android:layout_margin="1dp"
+
+
+        />
+
+</LinearLayout>

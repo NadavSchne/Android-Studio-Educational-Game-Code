@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/t22"
+
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context=".HighScoreActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="High Scores"
+        android:gravity="center"
+        android:textSize="36sp"
+        android:textColor="@android:color/black"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:textColor="@android:color/black"-->
+<!--            android:text="@string/Difficulty_text"-->
+<!--            android:layout_height="wrap_content"/>-->
+
+<!--        <Spinner-->
+<!--            android:id="@+id/spinner_difficulty"-->
+<!--            android:layout_width="100dp"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:layout_marginTop="16dp"-->
+<!--            android:background="@drawable/shape1"/>-->
+
+<!--        <Space-->
+<!--            android:layout_width="24dp"-->
+<!--            android:layout_height="0dp"/>-->
+
+
+
+        <Spinner
+            android:id="@+id/spinner_category"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/shape1"/>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/list_scores"
+        tools:listitem="@layout/score_item_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+
+</LinearLayout>

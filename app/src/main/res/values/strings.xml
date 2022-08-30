@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">QuizGame</string>
+    <string name="MyQuiz">Let\'s Play Trivia!</string>
+    <string name="StartQuiz_Button">Start Quiz</string>
+    <string name="HighScoreStart">"Highscore: "</string>
+    <string name="Score">Score: 0</string>
+    <string name="QuestionCount">Question: 1/x</string>
+    <string name="Confirm_Button">Confirm</string>
+    <string name="Question_only">Question:</string>
+    <string name="Please_select_an_answer">Please select an answer</string>
+    <string name="Score_runtime">Score:</string>
+    <string name="answer1">Answer 1 is correct</string>
+    <string name="answer2">Answer 2 is correct</string>
+    <string name="answer3">Answer 3 is correct</string>
+    <string name="Next">Next</string>
+    <string name="Finish">Finish</string>
+    <string name="PressBack">Press back again to finish</string>
+    <string name="Easy">Easy</string>
+    <string name="Medium">Medium</string>
+    <string name="Hard">Hard</string>
+    <string name="Difficulty_text">"Difficulty: "</string>
+    <string name="Category">Category:</string>
+    <string name="Sport">Sport</string>
+    <string name="Music">Music</string>
+    <string name="Math">Math</string>
+    <string name="ClosingActivity">Closing Activity</string>
+    <string name="AreYouSure">Are you sure you want to close this activity?</string>
+    <string name="Yes">Yes</string>
+    <string name="No">No</string>
+    <string name="MusicOnOff">Music On/Off</string>
+    <string name="AllScores">View All Scores</string>
+    <string name="name">Enter name:</string>
+</resources>
